@@ -329,18 +329,6 @@ The AI extracts the following standardized fields:
 
 ![AI Processed Result](image-2.png)
 
----
-
-# 💡 Future Improvements
-
-- Retry Failed Batches
-- Parallel AI Processing
-- Download JSON / CSV
-- Import History
-- Authentication
-- Virtualized Tables
-- Docker Support
-- Unit Tests
 
 ---
 
