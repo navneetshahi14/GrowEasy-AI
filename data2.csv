@@ -1,0 +1,6 @@
+Customer,Emails,Mobile Numbers,Location,Notes
+Navneet Shahi,"navneet@gmail.com,navneet.work@gmail.com","+91 9876543210,+91 9123456789","Noida, Uttar Pradesh","Interested in AI project"
+Anjali,"anjali@gmail.com","9876500000","Delhi","Follow up after 2 days"
+Ramesh,,9876543211,Mumbai,"Email missing"
+,rahul@gmail.com,,Pune,"Phone missing"
+,,,,"Completely empty row"
