@@ -1,5 +1,5 @@
-import { extractCRMData } from "./ai.service";
-import { createBatches } from "./batch.service";
+import { extractCRMData } from "./ai.service.js";
+import { createBatches } from "./batch.service.js";
 
 export async function processRows<T>(rows: T[],batchSize = 20) {
     const batches = createBatches(rows, batchSize)

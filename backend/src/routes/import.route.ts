@@ -1,7 +1,7 @@
 import { Router } from "express";
 import multer from 'multer'
 const router = Router()
-import { importCSV } from '../controllers/import.controller'
+import { importCSV } from '../controllers/import.controller.js'
 
 const upload = multer({
     storage: multer.memoryStorage()

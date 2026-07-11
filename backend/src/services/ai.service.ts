@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
-import { buildExtractionPrompt } from "../prompts/extractor.prompt";
-import ENV from "../config/ENV";
-import { extractJson } from "../utlis/extractJson";
+import { buildExtractionPrompt } from "../prompts/extractor.prompt.js";
+import ENV from "../config/ENV.js";
+import { extractJson } from "../utlis/extractJson.js";
 
 const ai = new GoogleGenAI({
     apiKey: ENV.GEMINI_API_KEY! 

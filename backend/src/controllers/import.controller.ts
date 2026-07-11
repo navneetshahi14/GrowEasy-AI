@@ -1,8 +1,8 @@
 import type { Request, Response } from "express";
 import { success } from "zod";
-import { paparseCsv } from "../services/csv.service";
-import { validateRows } from "../services/validation.service";
-import { processRows } from "../services/mapping.service";
+import { paparseCsv } from "../services/csv.service.js";
+import { validateRows } from "../services/validation.service.js";
+import { processRows } from "../services/mapping.service.js";
 
 export const importCSV = async (req: Request, res: Response): Promise<void> => {
     try {
